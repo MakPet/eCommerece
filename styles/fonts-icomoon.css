@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?v20ldh');
+  src:  url('../fonts/icomoon.eot?v20ldh#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?v20ldh') format('truetype'),
+    url('../fonts/icomoon.woff?v20ldh') format('woff'),
+    url('../fonts/icomoon.svg?v20ldh#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-plus:before {
+  content: "\f067";
+}
+.icon-home:before {
+  content: "\f015";
+}
+.icon-shopping-cart:before {
+  content: "\f07a";
+}
+.icon-twitter:before {
+  content: "\f099";
+}
+.icon-facebook:before {
+  content: "\f09a";
+}
+.icon-facebook-f:before {
+  content: "\f09a";
+}
+.icon-google-plus:before {
+  content: "\f0d5";
+}
+.icon-linkedin:before {
+  content: "\f0e1";
+}
+.icon-angle-double-right:before {
+  content: "\f101";
+}
+.icon-angle-left:before {
+  content: "\f104";
+}
+.icon-angle-right:before {
+  content: "\f105";
+}
+.icon-angle-up:before {
+  content: "\f106";
+}
+.icon-angle-down:before {
+  content: "\f107";
+}
+.icon-folder-open-o:before {
+  content: "\f115";
+}
+.icon-youtube-play:before {
+  content: "\f16a";
+}
+.icon-opencart:before {
+  content: "\f23d";
+}
+.icon-user-o:before {
+  content: "\f2c0";
+}
+
+

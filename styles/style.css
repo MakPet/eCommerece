@@ -2,11 +2,29 @@
     box-sizing: border-box;
 }
 
+a {
+    color: #fff;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    padding: 0;
+    margin: 0;
+
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+}
+
 body {
     margin: 0;
     padding: 0;
     
-    min-width: 1600px;
+    min-width: 1580px;
 
     font-family: 'Roboto', sans-serif;
     
@@ -26,22 +44,30 @@ header {
     width: 100%;
     min-height: 120px;
 
-    background-color: #d4d4d4;
+    background-color: #fff;
 }
 
 header .logo-search {
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
 }
 
 header .logo {
+    margin-top: 35px;
+
+    position: relative;
+}
+
+header .logo-text {
     font-size: 32px;
     text-decoration: none;
     font-weight: 400;
     color: #34272c;
     opacity: 0.8;
     letter-spacing: 0.8px;
+
+    margin-left: 45px;
 }
 
 header .logo span {
@@ -50,3 +76,307 @@ header .logo span {
     letter-spacing: 0.36px;
     font-weight: 500;
 }
+
+header .logo-search .package {
+    position: absolute;
+    bottom: 3px;
+    left: 2px;
+}
+
+header .logo-search .search-sign-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    min-width: 415px;
+}
+
+header .logo-search .search-sign-up form {
+    position: relative;
+}
+
+header .logo-search .search-sign-up input {
+    
+    min-width: 271px;
+    min-height: 44px;
+
+    padding: 14px 40px 13px 16px;
+
+    font-size: 16px;
+
+    color: #989898;
+
+    background-color: #fff;
+    border: 1px solid #bebebe;
+
+    box-sizing: border-box !important;
+}
+
+header .logo-search .search-sign-up input::-webkit-search-cancel-button {
+    display: none;
+}
+
+header .logo-search .search-sign-up .search-submit {
+    position: absolute;
+    top: 25%;
+    right: 12px;
+    
+    padding: 0;
+    margin: 0;
+
+    background-color: transparent;
+    border: none;
+}
+
+header .logo-search .search-sign-up .sign-up {
+    min-width: 113px;
+    min-height: 44px;
+    
+    margin: 2px 0;
+    padding: 0 10px;
+
+    font-size: 16px;
+
+    background-color: #00a8a9;
+    color: #ffffff;
+}
+
+header .logo-search .search-sign-up .sign-up:hover {
+    background-color: #008f8f;
+}
+
+header .logo-search .search-sign-up .sign-up:active {
+    background-color: #007575;
+}
+
+.menu-wrapper  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    min-height: 76px;
+
+    background-color: #37393e;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+}
+
+.menu .home {
+    display: block;
+
+    max-width: 4.7%;
+    width: 4.7%;
+    min-height: 55px;
+    
+    background-color: #00a8a9;
+    border-radius: 50%;
+
+    position: relative;
+}
+
+.menu .home::after {
+    font-family: 'icomoon';
+    content: "\f015";
+
+    position: absolute;
+    top: 17%;
+    left: 24%;
+
+    font-size: 32px;
+}
+
+.menu .main-menu {
+    display: flex;
+
+    max-width: 59.8%;
+    width: 59.8%;
+    min-height: 76px;
+
+    margin: 0;
+    padding: 0;
+
+    font-weight: 500;
+    list-style: none;
+}
+
+.menu > .main-menu > li {
+    width: 20%;      
+}
+
+
+.menu > .main-menu > li:first-child {
+    width: 29.4%;      
+}
+
+.menu > .main-menu > li:nth-child(2) {
+    width: 23%;      
+}
+
+.menu > .main-menu > li:nth-child(4) {
+    width: 15%;      
+}
+
+.menu .main-menu > li:hover {
+    background-color: #64676e;     
+}
+
+.menu .main-menu > li > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+}
+
+.menu .main-menu > li:first-of-type > a::after {
+    font-family: 'icomoon';
+    content: "\f107";
+
+    margin-left: 8px;
+}
+
+.menu .main-menu > li:nth-child(2) > a::after {
+    font-family: 'icomoon';
+    content: "\f107";
+
+    margin-left: 7px;
+}
+
+.main-menu .sub-menu-one {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+    padding: 0;
+
+    max-width: 191px;
+    width: 191px;
+
+    background-color: #37393e;
+    list-style: none;
+
+    position: absolute;
+}
+
+.main-menu .sub-menu-one > li {
+    padding: 10px 23px;
+}
+
+.main-menu .sub-menu-two {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+    padding: 0;
+
+    max-width: 150px;
+    width: 150px;
+
+    background-color: #37393e;
+    list-style: none;
+
+    position: absolute;
+}
+
+.main-menu .sub-menu-two > li {
+    padding: 10px 14px;
+}
+
+.main-menu ul[class*="sub-menu"] > li:hover {
+    background-color: #64676e;  
+}
+
+.main-menu ul[class*="sub-menu"] {
+    display: none;
+}
+
+.main-menu > li:hover .sub-menu-one, .main-menu > li:hover .sub-menu-two {
+    display: flex;
+}
+
+.menu .cart {
+    font-size: 36px;
+    font-weight: 300;
+
+    padding: 17px 35px 18px 82px;
+
+    background-color: #f0cc50;
+
+    position: relative;
+}
+
+.menu .cart:hover {
+    background-color: #e3b827;
+}
+
+.menu .cart:active {
+    background-color: #d9aa0b;
+}
+
+.menu .cart::before {
+    font-family: 'icomoon';
+    content: "\f23d";
+
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.menu .cart span{ 
+    font-weight: 400;
+}
+
+
+.menu button {
+    max-width: 17.3%;
+    width: 17.3%;
+    height: 76px;
+
+    padding: 0 10px;
+
+    font-size: 36px;
+    font-weight: 300;
+
+    background-color: #00a8a9;
+
+    position: relative;
+}
+
+.menu button::before {
+    font-family: 'icomoon';
+    content: "\f2c0";
+
+    font-size: 32px;
+
+    position: absolute;
+    top: 25%;
+    left: 13%;
+}
+
+.menu button span {
+    margin-left: 43px; 
+}
+
+.menu button:hover {
+    background-color: #008f8f;
+}
+
+.menu button:active {
+    background-color: #007575;
+}
+
+
+
+
+
+
+
+
+
