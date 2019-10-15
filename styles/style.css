@@ -133,7 +133,7 @@ header .logo-search .search-sign-up .sign-up {
     min-height: 44px;
     
     margin: 2px 0;
-    padding: 0 10px;
+    padding: 5px 10px;
 
     font-size: 16px;
 
@@ -231,6 +231,8 @@ header .logo-search .search-sign-up .sign-up:active {
     justify-content: center;
     align-items: center;
 
+    padding: 10px 10px;
+
     width: 100%;
     height: 100%;
 }
@@ -256,8 +258,8 @@ header .logo-search .search-sign-up .sign-up:active {
     margin: 0;
     padding: 0;
 
-    max-width: 191px;
-    width: 191px;
+    max-width: 192px;
+    width: 192px;
 
     background-color: #37393e;
     list-style: none;
@@ -276,8 +278,8 @@ header .logo-search .search-sign-up .sign-up:active {
     margin: 0;
     padding: 0;
 
-    max-width: 150px;
-    width: 150px;
+    max-width: 149px;
+    width: 149px;
 
     background-color: #37393e;
     list-style: none;
@@ -305,7 +307,7 @@ header .logo-search .search-sign-up .sign-up:active {
     font-size: 36px;
     font-weight: 300;
 
-    padding: 17px 36px 18px 81px;
+    padding: 17px 35px 18px 81px;
 
     background-color: #f0cc50;
 
@@ -339,7 +341,7 @@ header .logo-search .search-sign-up .sign-up:active {
     width: 17.3%;
     height: 76px;
 
-    padding: 0 10px;
+    padding: 10px 10px;
 
     font-size: 36px;
     font-weight: 300;
