@@ -120,6 +120,9 @@ header .logo-search .search-sign-up .search-submit {
     position: absolute;
     top: 25%;
     right: 12px;
+
+    width: 22px;
+    height: 23px;
     
     padding: 0;
     margin: 0;
@@ -297,6 +300,8 @@ header .logo-search .search-sign-up .sign-up:active {
 
 .main-menu ul[class*="sub-menu"] {
     display: none;
+
+    z-index: 3;
 }
 
 .main-menu > li:hover .sub-menu-one, .main-menu > li:hover .sub-menu-two {
@@ -374,6 +379,119 @@ header .logo-search .search-sign-up .sign-up:active {
     background-color: #007575;
 }
 
+.slider {
+    background-image: linear-gradient(to right, #d38312 0%, #a83279 100%);
+}
+
+.slider-item {
+    width: 1170px;
+    height: 481px;
+
+    margin: 0 auto;
+
+    overflow: hidden;
+
+    position: relative;
+}
+
+.slider-item-wrapper {
+    position: relative;
+}
+
+.slider-item .categories {
+    width: 555px;
+    height: 555px;
+
+    background-color: #f0cc50;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 2;
+
+    position: absolute;
+    top: 25px;
+    left: 3.4%;
+}
+
+.slider-item .categories-2 {
+    background-color: #fc9e19;
+}
+
+.slider-item .categories-3 {
+    background-color: #1da1f2;
+}
+
+
+.slider-item .categories img {
+    width: 421;
+    height: 386;
+
+    position: absolute;
+    top: 5%;
+    left: 12%;
+}
+
+.slider-item .bank-card {
+    width: 542px;
+    height: 542px;
+
+    background-color: #8cc63e;
+    border-radius: 50%;
+    overflow: hidden;
+    
+    position: absolute;
+    top: 62px;
+    right: 7%;
+}
+
+.slider-item .bank-card img {
+    width: 529;
+    height: 422;
+
+    position: absolute;
+    top: 14.7%;
+    left: 2.5%;
+}
+
+.arrow {
+    width: 50px;
+    height: 50px;
+
+    background-color: rgba(55, 57, 62, 0.2);
+    border-radius: 50%;
+
+    position: absolute;
+    top: 45%;
+}
+
+.arrow-prev {
+    left: 1%;
+}
+
+.arrow-prev::before {
+    font-family: 'icomoon';
+    content: "\f104";
+
+    font-size: 40px;
+    color: #ffffff;
+
+    position: relative;
+    left: 30%;
+}
+
+.arrow-next {
+    right: 1%;
+}
+
+.arrow-next::before {
+    font-family: 'icomoon';
+    content: "\f105";
+
+    font-size: 40px;
+    color: #ffffff;
+
+    position: relative;
+    left: 40%;
+}
 
 
 
