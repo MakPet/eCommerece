@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?v20ldh');
-  src:  url('../fonts/icomoon.eot?v20ldh#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?v20ldh') format('truetype'),
-    url('../fonts/icomoon.woff?v20ldh') format('woff'),
-    url('../fonts/icomoon.svg?v20ldh#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?pptd4v');
+  src:  url('../fonts/icomoon.eot?pptd4v#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?pptd4v') format('truetype'),
+    url('../fonts/icomoon.woff?pptd4v') format('woff'),
+    url('../fonts/icomoon.svg?pptd4v#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -28,6 +28,9 @@
 .icon-plus:before {
   content: "\f067";
 }
+.icon-music:before {
+  content: "\f001";
+}
 .icon-home:before {
   content: "\f015";
 }
@@ -42,6 +45,9 @@
 }
 .icon-facebook-f:before {
   content: "\f09a";
+}
+.icon-globe:before {
+  content: "\f0ac";
 }
 .icon-google-plus:before {
   content: "\f0d5";
@@ -64,11 +70,23 @@
 .icon-angle-down:before {
   content: "\f107";
 }
+.icon-laptop:before {
+  content: "\f109";
+}
 .icon-folder-open-o:before {
   content: "\f115";
 }
+.icon-ellipsis-h:before {
+  content: "\f141";
+}
 .icon-youtube-play:before {
   content: "\f16a";
+}
+.icon-apple:before {
+  content: "\f179";
+}
+.icon-android:before {
+  content: "\f17b";
 }
 .icon-opencart:before {
   content: "\f23d";
@@ -76,5 +94,3 @@
 .icon-user-o:before {
   content: "\f2c0";
 }
-
-
