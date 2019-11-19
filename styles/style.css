@@ -35,8 +35,6 @@ hr {
 body {
     margin: 0;
     padding: 0;
-    
-    min-width: 1580px;
 
     font-family: 'Roboto', sans-serif;
     
@@ -44,55 +42,21 @@ body {
 }
 
 .container {
-    width: 1170px;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 100%;
-    min-height: 120px;
-
     background-color: #fff;
 }
 
-header .container {
+header .header-inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
 
-header .logo {
-    margin-top: 35px;
-
-    position: relative;
-}
-
-header .logo-text {
-    font-size: 32px;
-    text-decoration: none;
-    font-weight: 400;
-    color: #34272c;
-    opacity: 0.8;
-    letter-spacing: 0.8px;
-
-    margin-left: 45px;
-}
-
-header .logo span {
-    font-size: 36px;
-    color: #000;
-    letter-spacing: 0.36px;
-    font-weight: 500;
-}
-
-header .package {
-    position: absolute;
-    bottom: 3px;
-    left: 2px;
+    min-height: 120px;
 }
 
 header .search-sign-up {
@@ -112,7 +76,7 @@ header .search-sign-up input {
     min-width: 271px;
     min-height: 44px;
 
-    padding: 14px 40px 13px 16px;
+    padding: 13px 40px 11px 16px;
 
     font-size: 16px;
 
@@ -147,7 +111,6 @@ header .search-sign-up .sign-up {
     min-width: 113px;
     min-height: 44px;
     
-    margin: 2px 0;
     padding: 5px 10px;
 
     font-size: 16px;
@@ -165,28 +128,26 @@ header .search-sign-up .sign-up:active {
 }
 
 .menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     width: 100%;
-    min-height: 76px;
 
     background-color: #37393e;
 }
 
-.menu .container  {
+.menu .container {
+    color: #ffffff;
+}
+
+.menu .menu-inner {
     display: flex;
     align-items: center;
 
-    color: #ffffff;
+    min-height: 76px;
 }
 
 .menu .home {
     display: block;
 
-    max-width: 4.7%;
-    width: 4.7%;
+    min-width: 55px;
     min-height: 55px;
     
     background-color: #00a8a9;
@@ -208,37 +169,18 @@ header .search-sign-up .sign-up:active {
 
 .menu .main-menu {
     display: flex;
-
-    max-width: 59.8%;
-    width: 59.8%;
+    justify-content: space-between;
+    
+    min-width: 698px;
     min-height: 76px;
-
+    
     margin: 0;
-    padding: 0;
+    padding: 0 33px 0 38px;
 
     font-weight: 500;
     list-style: none;
-}
 
-.main-menu > li {
-    width: 20%;      
-}
-
-
-.main-menu > li:first-child {
-    width: 29.4%;      
-}
-
-.main-menu > li:nth-child(2) {
-    width: 23%;      
-}
-
-.main-menu > li:nth-child(4) {
-    width: 15%;      
-}
-
-.menu .main-menu > li:hover {
-    background-color: #64676e;     
+    position: relative;
 }
 
 .menu .main-menu > li > a {
@@ -248,7 +190,6 @@ header .search-sign-up .sign-up:active {
 
     padding: 10px 10px;
 
-    width: 100%;
     height: 100%;
 }
 
@@ -273,13 +214,13 @@ header .search-sign-up .sign-up:active {
     margin: 0;
     padding: 0;
 
-    max-width: 192px;
-    width: 192px;
+    min-width: 184px;
 
     background-color: #37393e;
     list-style: none;
 
     position: absolute;
+    top: 76px;
 }
 
 .main-menu .sub-menu-one > li {
@@ -293,13 +234,13 @@ header .search-sign-up .sign-up:active {
     margin: 0;
     padding: 0;
 
-    max-width: 149px;
-    width: 149px;
+    min-width: 149px;
 
     background-color: #37393e;
     list-style: none;
 
     position: absolute;
+    top: 76px;
 }
 
 .main-menu .sub-menu-two > li {
@@ -321,6 +262,8 @@ header .search-sign-up .sign-up:active {
 }
 
 .menu .cart {
+    display: block;
+
     font-size: 36px;
     font-weight: 300;
 
@@ -352,11 +295,10 @@ header .search-sign-up .sign-up:active {
     font-weight: 400;
 }
 
-
 .menu button {
-    max-width: 17.3%;
-    width: 17.3%;
-    height: 76px;
+    max-width: 203px;
+    width: 203px;
+    min-height: 76px;
 
     padding: 10px 10px;
 
