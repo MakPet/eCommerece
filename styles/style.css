@@ -64,15 +64,16 @@ header .search-sign-up {
     justify-content: space-between;
     align-items: flex-end;
 
-    min-width: 415px;
+    max-width: 417px;
 }
 
 header .search-sign-up form {
     position: relative;
+
+    margin-right: 13px
 }
 
-header .search-sign-up input {
-    
+header .search-sign-up input { 
     min-width: 271px;
     min-height: 44px;
 
@@ -108,7 +109,7 @@ header .search-sign-up .search-submit {
 }
 
 header .search-sign-up .sign-up {
-    min-width: 113px;
+    min-width: 133px;
     min-height: 44px;
     
     padding: 5px 10px;
@@ -131,9 +132,6 @@ header .search-sign-up .sign-up:active {
     width: 100%;
 
     background-color: #37393e;
-}
-
-.menu .container {
     color: #ffffff;
 }
 
@@ -147,8 +145,10 @@ header .search-sign-up .sign-up:active {
 .menu .home {
     display: block;
 
-    min-width: 55px;
-    min-height: 55px;
+    max-width: 55px;
+    width: 55px;
+    max-height: 55px;
+    height: 55px;
     
     background-color: #00a8a9;
     border-radius: 50%;
@@ -171,7 +171,8 @@ header .search-sign-up .sign-up:active {
     display: flex;
     justify-content: space-between;
     
-    min-width: 698px;
+    max-width: 698px;
+    width: 100%;
     min-height: 76px;
     
     margin: 0;
@@ -214,7 +215,8 @@ header .search-sign-up .sign-up:active {
     margin: 0;
     padding: 0;
 
-    min-width: 184px;
+    max-width: 184px;
+    width: 100%;
 
     background-color: #37393e;
     list-style: none;
@@ -234,7 +236,8 @@ header .search-sign-up .sign-up:active {
     margin: 0;
     padding: 0;
 
-    min-width: 149px;
+    max-width: 149px;
+    width: 100%;
 
     background-color: #37393e;
     list-style: none;
@@ -263,6 +266,9 @@ header .search-sign-up .sign-up:active {
 
 .menu .cart {
     display: block;
+
+    max-width: 213px;
+    width: 100%;
 
     font-size: 36px;
     font-weight: 300;
@@ -297,7 +303,7 @@ header .search-sign-up .sign-up:active {
 
 .menu button {
     max-width: 203px;
-    width: 203px;
+    width: 100%;
     min-height: 76px;
 
     padding: 10px 10px;
@@ -338,7 +344,7 @@ header .search-sign-up .sign-up:active {
 }
 
 .slider-item {
-    width: 1170px;
+    max-width: 1170px;
     height: 481px;
 
     margin: 0 auto;
@@ -450,20 +456,17 @@ header .search-sign-up .sign-up:active {
 }
 
 .welcome {
-    width: 100%;
     min-height: 910px;
     padding-top: 74px;
 
     background-color: #fff;
 }
 
-.welcome .container {
+.welcome .welcome-inner {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
-    margin: 0 auto;
 }
 
 .welcome .main-welcome {
@@ -474,7 +477,6 @@ header .search-sign-up .sign-up:active {
     color: #000000;
 
     margin: 0 0 7px 0;
-
 }
 
 .welcome hr {
@@ -485,7 +487,7 @@ header .search-sign-up .sign-up:active {
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
-    color: #8c8c8c;
+    text-align: center;
 
     margin: 0 0 44px 0;
 }
@@ -497,25 +499,25 @@ header .search-sign-up .sign-up:active {
     letter-spacing: 0.32px;
     text-align: center;
 
-    
     max-width: 1161px;
-    margin: 0;
+    margin: 0 0 68px 0;
 }
 
 .container-row {
-    width: 1560px;
+    max-width: 1590px;
     margin: 0 auto;
-    padding-top: 68px;
+    padding: 0 15px;
+}
+
+.container-row-inner {
+    display: flex;
+    flex-direction: column;
 }
 
 .categories-row {
     display: flex;
-    justify-content: space-between;
-    align-content: center;
 
-    width: 100%;
-    max-height: 250px;
-    height: 250px;
+    min-height: 250px;
 }
 
 .categories-row:not(:last-child) {
@@ -524,40 +526,50 @@ header .search-sign-up .sign-up:active {
 
 div[class^="categories-item"] {
     display: flex;
-    width: 32.2%;
+    max-width: 503px;
+    width: 100%;
+    min-height: 251px;
+}
+
+div[class^="categories-item"] + div[class^="categories-item"] {
+    margin-left: 26px;
 }
 
 div[class^="categories-item"] .icon::before {
     font-size: 174px;
 }
 
-div[class^="categories-item-text"] {
+div[class^="categories-text"] {
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    width: 50%;
-    height: 100%;
+    min-width: 50%;
+    min-height: 100%;
     padding: 71px 0 3px 0;
 }
 
 .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: 50%;
     height: 100%;
 
     position: relative;
 }
 
-div[class^="categories-item-text"] h2 {
+div[class^="categories-text"] h2 {
+    text-align: center;
     font-size: 36px;
     font-weight: 500;
-
     color: #ffffff;
 
     margin: 0 0 3px 0;
 }
 
-div[class^="categories-item-text"] p {
+div[class^="categories-text"] p {
     color: #fff;
 
     margin: 0 0 15px 0;
@@ -602,14 +614,9 @@ div[class^="categories-item-text"] p {
     content: "\f109";
     color: #f0cc50;
     line-height: 127px;
-
-    position: absolute;
-
-    top: 62px;
-    left: 36px;
 }
 
-.categories-item-text-сomputer {
+.categories-text-сomputer {
     background-color: #f0cc50;
 }
 
@@ -622,14 +629,9 @@ div[class^="categories-item-text"] p {
     content: "\f001";
     color: #f14d4d;
     line-height: 177px;
-
-    position: absolute;
-
-    top: 35px;
-    left: 37px;
 }
 
-.categories-item-text-music {
+.categories-text-music {
     background-color: #f14d4d;
 }
 
@@ -642,14 +644,9 @@ div[class^="categories-item-text"] p {
     content: "\f0ac";
     color: #00a8a9;
     line-height: 151px;
-
-    position: absolute;
-
-    top: 50px;
-    left: 51px;
 }
 
-.categories-item-text-website {
+.categories-text-website {
     background-color: #00a8a9;
 }
 
@@ -662,15 +659,9 @@ div[class^="categories-item-text"] p {
     content: "\f17b";
     color: #8cc63e;
     line-height: 175px;
-
-    position: absolute;
-
-    top: 34px;
-    left: 57px;
 }
 
-
-.categories-item-text-android {
+.categories-text-android {
     background-color: #8cc63e;
 }
 
@@ -683,14 +674,9 @@ div[class^="categories-item-text"] p {
     content: "\f179";
     color: #2e64bd;
     line-height: 173px;
-
-    position: absolute;
-
-    top: 37px;
-    left: 56px;
 }
 
-.categories-item-text-ios {
+.categories-text-ios {
     background-color: #2e64bd;
 }
 
@@ -703,14 +689,9 @@ div[class^="categories-item-text"] p {
     content: "\f141";
     color: #315f6d;
     line-height: 48px;
-
-    position: absolute;
-
-    top: 102px;
-    left: 54px;
 }
 
-.categories-item-text-other {
+.categories-text-other {
     background-color: #315f6d;
 }
 
