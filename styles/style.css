@@ -1014,6 +1014,7 @@ div[class^="categories-text"] p {
 }
 
 .about-delivery-items {
+    max-width: 292px;
     padding: 28px 12px 14px 23px;
 }
 
@@ -1127,4 +1128,121 @@ div[class^="categories-text"] p {
 
     position: absolute;
     left: 0px;
+}
+
+.about {
+    padding: 51px 0px 74px 0;
+}
+
+.about .about-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .about-items-title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 51px;
+    color: #37393e;
+    text-transform: uppercase;
+    
+    padding-bottom: 13px;
+    border-bottom: 2px solid #c0c0c0;
+}
+
+.about .about-items-title span {
+    font-weight: 300;
+    line-height: 22px;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.about .about-items.company {
+    max-width: 508px;
+}
+
+.about .about-items.company .about-items-title {
+    margin-bottom: 31px;
+}
+
+.about .about-items-title-tagline {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #37393e;
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+}
+
+.about .about-items.company .about-item-text {
+    margin-bottom: 30px;
+}
+
+.about .about-items.company .about-items-text {
+    font-weight: 300;
+}
+
+.about .about-items.company .about-items-text:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.about .about-items.company .more {
+    display: inline-block;
+    padding: 13px 28px;
+    background-color: #00a8a9;
+}
+
+.about .about-items.company .more:hover {
+    background-color: #008f8f;
+}
+
+.about .about-items.company .more:active {
+    background-color: #007575;
+}
+
+.about .about-items.delivery-solutions {
+    max-width: 586px;
+    padding-right: 60px;
+}
+
+.about .about-items.delivery-solutions .about-items-title {
+    max-width: 508px;
+    margin-bottom: 24px;
+}
+
+.about .about-items.delivery-solutions ol {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #37393e;
+    letter-spacing: 0.48px;
+
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+
+    counter-reset: myCounter;
+}
+
+.about .about-items.delivery-solutions ol > li {
+    list-style: none;
+}
+
+.about .about-items.delivery-solutions ol > li+li {
+    margin-top: 26px;
+}
+
+.about .about-items.delivery-solutions ol > li:before {
+    counter-increment: myCounter;
+    content: counter(myCounter) ".";
+
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.8px;
+    color: #8d8d8d;
+
+
+    margin-right: 9px;
 }
