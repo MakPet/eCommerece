@@ -1003,3 +1003,128 @@ div[class^="categories-text"] p {
 .delivery-description-text {
     max-width: 304px;
 }
+
+.about-delivery {
+    background-color: #f14d4d;
+    color: #ffffff;
+}
+
+.about-delivery-item {
+    display: flex;
+}
+
+.about-delivery-items {
+    padding: 28px 12px 14px 23px;
+}
+
+.about-delivery-items-title {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.72px;
+    text-transform: uppercase;
+
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.about-delivery-items .about-delivery-items-title span {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 43px;
+}
+
+.about-delivery-items-text {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+
+    margin-bottom: 26px;
+}
+
+.about-delivery-items.costs {
+    padding: 28px 32px 14px 1px;
+}
+
+.about-delivery-items.costs .about-delivery-items-title {
+    padding-left: 94px;
+}
+
+.about-delivery-items.costs .about-delivery-items-title::before {
+    font-family: 'icomoon';
+    content: "\f1ec";
+    font-size: 70px;
+    line-height: 70px;
+
+    position: absolute;
+    left: 0px;
+}
+
+.about-delivery-items.costs .about-delivery-items-text {
+    margin-bottom: 26px;
+}
+
+.about-delivery-items .more::before {
+    font-family: 'icomoon';
+    content: "\f101";
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.about-delivery-items.terms {
+    background-color: #f0cc50;
+    color: #37393e;
+}
+
+.about-delivery-items.terms .about-delivery-items-title {
+    padding-left: 75px;
+}
+
+.about-delivery-items.terms .about-delivery-items-title::before {
+    font-family: 'icomoon';
+    content: "\f017";
+    font-size: 70px;
+    line-height: 61px;
+    color: #f14d4d;
+
+    position: absolute;
+    left: 0px;
+}
+
+.about-delivery-items.terms .more::before {
+    color: #f14d4d;
+}
+
+.about-delivery-items.branch .about-delivery-items-title {
+    padding-left: 95px;
+}
+
+.about-delivery-items.branch .about-delivery-items-title::before {
+    font-family: 'icomoon';
+    content: "\f1d8";
+    font-size: 70px;
+    line-height: 68px;
+    color: #fff;
+
+    position: absolute;
+    left: 0px;
+}
+
+.about-delivery-items.courier {
+    background-color: #37393e;
+}
+
+.about-delivery-items.courier .about-delivery-items-title {
+    padding-left: 80px;
+}
+
+.about-delivery-items.courier .about-delivery-items-title::before {
+    font-family: 'icomoon';
+    content: "\f095";
+    font-size: 70px;
+    line-height: 58px;
+    color: #fff;
+
+    position: absolute;
+    left: 0px;
+}
