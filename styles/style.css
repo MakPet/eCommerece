@@ -165,6 +165,24 @@ header .search-sign-up .sign-up:active {
     font-size: 32px;
 }
 
+.btn-menu {
+    display: none;
+
+    width: 55px;
+}
+
+.btn-menu div {
+    height: 3px;
+
+    margin: 0 10px;
+
+    background-color: #00a8a9;
+}
+
+.btn-menu div + div {
+    margin-top: 5px;
+}
+
 .menu .main-menu {
     display: flex;
     justify-content: space-between;
@@ -180,6 +198,7 @@ header .search-sign-up .sign-up:active {
     list-style: none;
 
     position: relative;
+    background-color: #37393e;
 }
 
 .menu .main-menu > li > a {
@@ -940,6 +959,8 @@ div[class^="categories-text"] p {
 .delivery-item {
     display: flex;
     justify-content: space-between;
+
+    margin-right: 43px;
 }
 
 .delivery-item:not(:last-child) {
@@ -984,10 +1005,6 @@ div[class^="categories-text"] p {
     content: "\f1ec";
 }
 
-.delivery-description {
-    min-width: 342px;
-}
-
 .delivery-description-title {
     font-size: 28px;
     font-weight: 500;
@@ -996,7 +1013,7 @@ div[class^="categories-text"] p {
     color: #37393e;
     line-height: 24px;
 
-    max-width: 335px;
+    max-width: 330px;
     margin-bottom: 20px;
 }
 
@@ -1245,4 +1262,201 @@ div[class^="categories-text"] p {
 
 
     margin-right: 9px;
+}
+
+footer {
+    padding: 43px 0 5px 0;
+    background-color: #37393e;
+}
+
+footer .map-site-item {
+    display: flex;
+    justify-content: space-between;
+
+    padding-bottom: 58px;
+    margin-right: 54px;
+    
+    border-bottom: 1px solid #000;
+    box-shadow: 0px 1px 0px 0px #4b4d51;
+}
+
+footer .map-site-items {
+    max-width: 243px;
+}
+
+footer .map-site-items .map-site-items-title {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 41px;
+    color: #fff;
+    letter-spacing: 0.6px;
+
+    max-width: 243px;
+}
+
+footer .map-site-items ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+    margin-top: 20px;
+}
+
+footer .map-site-items ul > li {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.28px;
+}
+
+footer .map-site-items ul > li:hover > a {
+    color: #dedede; 
+}
+
+
+footer .map-site-items ul > li:active > a {
+    color: #bdbdbd;
+}
+
+footer .footer-copyright {
+    display: flex;
+    justify-content: space-between;
+
+    margin-right: 93px;
+    padding-top: 37px;
+    
+    font-weight: 300;
+    color: #fff;
+}
+
+footer .footer-copyright-text-developers {
+    max-width: 262px;
+
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.28px;
+
+    margin-bottom: 8px;
+}
+
+footer .footer-copyright-text-designed-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 350px;
+}
+
+footer .footer-copyright-text-designed {
+    font-size: 26px;
+    line-height: 36px;
+    letter-spacing: 0.52px;
+
+    margin-right: 12px;
+}
+
+footer .social-networks {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    max-width: 431px;
+}
+
+footer .social-networks-text {
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0.6px;
+
+    margin-right: 33px;
+}
+
+footer .social-networks-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .social-networks-links > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-width: 43px;
+    min-height: 43px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+
+    font-family: 'icomoon';
+    font-size: 26px;
+    line-height: 22px;
+}
+
+footer .social-networks-links > a + a {
+    margin-left: 13px;
+}
+
+footer .social-networks-links .fb::before {
+    content: "\f09a";
+}
+
+footer .social-networks-links .tw::before {
+    content: "\f099";
+}
+
+footer .social-networks-links .in::before {
+    content: "\f0e1";
+}
+
+footer .social-networks-links .g::before {
+    content: "\f0d5";
+}
+
+footer .social-networks-links .yt::before {
+    content: "\f16a";
+}
+
+.up {
+    display: none;
+
+    position: fixed;
+    right: 0;
+    top: 80.76%;
+
+    max-width: 60px;
+}
+
+.up-btn {
+    display: inline-block;
+
+    padding: 9px 15px 21px 19px;
+
+    background-color: #00a8a9;
+}
+
+.up-btn::before {
+    display: inline-block;
+    font-family: 'icomoon';
+    font-size: 40px;
+    line-height: 16px;
+    content: "\f106";
+}
+
+.up-btn:hover {
+    background-color: #008f8f;
+}
+
+.up-btn:active {
+    background-color: #007575;
+}
+
+.up-text {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: #000;
+
+    background-color: #fff;
+    padding: 0px 8px 19px 13px;
 }
