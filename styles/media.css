@@ -35,6 +35,50 @@
     .menu .cart::before, .menu button::before {
         font-size: 28px;
     }
+
+    .slider .categories {
+        width: 455px;
+        height: 455px;
+
+        top: 110px;
+        left: 10.4%;
+    }
+
+    .slider .categories img {
+        width: 321px;
+        height: 286px;
+
+        top: 10%;
+        left: 13%;
+    }
+
+    .slider .bank-card {
+        width: 442px;
+        height: 442px;
+
+        top: 90px;
+        right: 14%;
+    }
+
+    .slider .bank-card img {
+        width: 459px;
+        height: 352px;
+
+        top: 14.7%;
+        left: 2.5%;
+    }
+}
+
+@media only screen and (max-width: 1061px) {
+    .slider .categories {
+        top: 110px;
+        left: 7.4%;
+    }
+
+    .slider .bank-card {
+        top: 90px;
+        right: 11%;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -68,6 +112,65 @@
 
     .menu .cart::before, .menu button::before {
         display: none;
+    }
+
+    .slider-item {
+        height: 365px;
+    }
+
+    .slider .categories {
+        width: 355px;
+        height: 355px;
+
+        top: 115px;
+        left: 13.4%;
+    }
+
+    .slider .categories img {
+        width: 221px;
+        height: 186px;
+
+        top: 13%;
+        left: 18%;
+    }
+
+    .slider .bank-card {
+        width: 342px;
+        height: 342px;
+
+        top: 80px;
+        left: 48%;
+    }
+
+    .slider .bank-card img {
+        width: 359px;
+        height: 252px;
+
+        top: 17.7%;
+        left: 0.5%;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .slider .categories {
+        width: 315px;
+        height: 315px;
+
+        top: 120px;
+        left: 14.4%;
+    }
+
+    .slider .categories img {
+        top: 13%;
+        left: 15%;
+    }
+
+    .slider .bank-card {
+        width: 302px;
+        height: 302px;
+
+        top: 85px;
+        right: 17%;
     }
 }
 
@@ -140,6 +243,38 @@
     .main-menu .sub-menu-two {
         top: 72px;
     }
+
+    .slider .categories {
+        width: 265px;
+        height: 265px;
+
+        top: 155px;
+        left: 14.4%;
+    }
+
+    .slider .categories img {
+        width: 171px;
+        height: 136px;
+
+        top: 20%;
+        left: 17%;
+    }
+
+    .slider .bank-card {
+        width: 252px;
+        height: 252px;
+
+        top: 130px;
+        right: 17%;
+    }
+
+    .slider .bank-card img {
+        width: 279px;
+        height: 172px;
+
+        top: 24.7%;
+        left: 0.5%;
+    }
 }
 
 
@@ -190,6 +325,43 @@
 
     .menu .main-menu {
         top: 302px;
+    }
+
+    .slider-item {
+        height: 365px;
+    }
+
+    .slider .categories {
+        width: 215px;
+        height: 215px;
+
+        top: -8px;
+        left: 17.4%;
+    }
+
+    .slider .categories img {
+        width: 171px;
+        height: 136px;
+
+        top: 10%;
+        left: 10%;
+    }
+
+    .slider .bank-card {
+        width: 202px;
+        height: 202px;
+
+        top: 174px;
+        left: 35%;
+        right: 0%;
+    }
+
+    .slider .bank-card img {
+        width: 229px;
+        height: 122px;
+
+        top: 31.7%;
+        left: 0%;
     }
 }
 
