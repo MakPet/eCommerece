@@ -1,7 +1,19 @@
 $(function() {
 	$('.slider').slick({
 		prevArrow:"<div class='arrow arrow-prev'></div>",
-	    nextArrow:"<div class='arrow arrow-next'></div>"
+	    nextArrow:"<div class='arrow arrow-next'></div>",
+	    autoplay: false,
+	    speed: 1500,
+	    responsive: [
+	    	{
+	    		breakpoint: 600,
+	    		settings: {
+	    			arrows: false,
+	    			autoplay: true,
+	    			autoplaySpeed: 2000
+	    		}
+	    	}
+	    ]
 	});
 
 	document.body.addEventListener('click', function(e) {
