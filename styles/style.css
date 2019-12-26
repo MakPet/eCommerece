@@ -199,6 +199,7 @@ header .search-sign-up .sign-up:active {
 
     position: relative;
     background-color: #37393e;
+    z-index: 5;
 }
 
 .menu .main-menu > li > a {
@@ -356,6 +357,7 @@ header .search-sign-up .sign-up:active {
 }
 
 .slider {
+    z-index: 1;
     background-image: linear-gradient(to right, #d38312 0%, #a83279 100%);
 }
 
