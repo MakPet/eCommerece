@@ -1161,6 +1161,8 @@ div[class^="categories-text"] p {
 .about .about-item {
     display: flex;
     justify-content: space-between;
+
+    padding-right: 60px;
 }
 
 .about .about-items-title {
@@ -1227,7 +1229,6 @@ div[class^="categories-text"] p {
 
 .about .about-items.delivery-solutions {
     max-width: 586px;
-    padding-right: 60px;
 }
 
 .about .about-items.delivery-solutions .about-items-title {

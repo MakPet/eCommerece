@@ -126,6 +126,30 @@
     .about-delivery-items.costs {
         padding: 28px 12px 14px 23px;
     }
+
+    .about {
+        padding: 51px 0px 51px 0;
+    }
+
+    .about br {
+        display: none;
+    }
+
+    .about .about-item {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        padding-right: 0px;
+    }
+
+    .about .about-items + .about-items {
+        margin-top: 30px;
+    }
+
+    .about .about-items.company {
+        max-width: 521px;
+    }
 }
 
 @media only screen and (max-width: 1061px) {
