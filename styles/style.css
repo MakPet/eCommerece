@@ -1033,6 +1033,10 @@ div[class^="categories-text"] p {
     display: flex;
 }
 
+.about-delivery-items-inner {
+    display: flex;
+}
+
 .about-delivery-items {
     max-width: 292px;
     padding: 28px 12px 14px 23px;
