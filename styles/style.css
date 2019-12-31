@@ -546,7 +546,7 @@ div[class^="categories-text"] {
     align-items: center;
 
     width: 251px;
-    padding: 71px 0 3px 0;
+    padding: 71px 0 40px 0;
 }
 
 .categories-row .icon {
@@ -555,6 +555,7 @@ div[class^="categories-text"] {
     align-items: center;
 
     width: 251px;
+    min-height: 251px;
 
     position: relative;
 }
