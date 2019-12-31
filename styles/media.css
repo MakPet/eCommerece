@@ -90,6 +90,10 @@
         margin-bottom: 15px;
         margin-left: 5px;
     }
+
+    .counters {
+        background-size: cover;
+    }
 }
 
 @media only screen and (max-width: 1061px) {
@@ -171,6 +175,10 @@
 
         top: 17.7%;
         left: 0.5%;
+    }
+
+    .products {
+        padding: 7px 0 50px 0;
     }
 }
 
@@ -297,6 +305,19 @@
 
         top: 24.7%;
         left: 0.5%;
+    }
+
+    .counters {
+        padding: 62px 0 35px 0;
+    }
+
+    .counters .counters-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .counters .counters-items {
+        margin-bottom: 25px;
     }
 }
 
