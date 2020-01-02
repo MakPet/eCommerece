@@ -150,6 +150,38 @@
     .about .about-items.company {
         max-width: 521px;
     }
+
+    footer .map-site-item {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+        padding-bottom: 0px;
+        margin-right: 0px;
+    }
+
+    footer .map-site-items-inner {
+        margin-bottom: 25px;
+    }
+
+    footer .map-site-items-inner:nth-child(even) {
+        max-width: 545px;
+    }
+
+    footer .map-site-items {
+        margin: 0 10px;
+    }
+
+    footer .footer-copyright {
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        margin-right: 0px;    
+    }
+
+    footer .footer-copyright-text {
+        margin: 0 10px 10px 0;
+    }
 }
 
 @media only screen and (max-width: 1061px) {
@@ -235,6 +267,18 @@
 
     .products {
         padding: 7px 0 50px 0;
+    }
+
+    .up {
+        top: 83.76%;
+    }
+
+    .up-btn {
+        padding: 19px 15px 8px 17px;
+    }
+
+    .up-text {
+        display: none;
     }
 }
 
@@ -380,6 +424,15 @@
         flex-wrap: wrap;
         justify-content: space-around;
     }
+
+    footer .footer-copyright {
+        justify-content: space-around;
+    }
+
+    footer .footer-copyright-text-developers {
+        max-width: 100%;
+        text-align: center;
+    }
 }
 
 
@@ -498,6 +551,48 @@
     }
 }
 
+@media only screen and (max-width: 516px) {
+    footer .map-site-items-inner {
+        flex-direction: column; 
+    }
+
+    footer .map-site-items + .map-site-items {
+        margin-top: 15px;
+    }
+
+    footer .map-site-items .map-site-items-title {
+        font-size: 35px;
+        max-width: 290px;
+        margin-bottom: 3px;
+    }
+
+    footer .map-site-items ul {
+        margin-top: 10px;
+    }
+
+    footer .map-site-items li {
+        font-size: 16px;
+    }
+
+    footer .social-networks {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .social-networks-text { 
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 407px) {
+    footer .footer-copyright-text-designed {
+        font-size: 18px;
+    }
+
+   footer .footer-copyright-text-designed-wrapper img {
+        width: 143px;
+   }
+}
 
 
 
